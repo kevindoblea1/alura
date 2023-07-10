@@ -1,3 +1,7 @@
 .vscode
 img
 ..assets/img
+arquitectura-css/assets/img
+layout/img
+./arquitectura-css/assets/img
+./layout/img
