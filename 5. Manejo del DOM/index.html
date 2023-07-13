@@ -29,6 +29,7 @@
               placeholder="Nombre de la tarea"
               class="inputForm"
               autocomplete="off"
+              value=""
               data-form-input
             />
             <button type="submit" class="btnCreate" data-form-btn>
@@ -36,22 +37,10 @@
             </button>
           </form>
         </div>
-        <ul class="cardsList">
-          <li class="card">
-            <div>
-              <i class="far fa-check-square icon"></i>
-              <span class="task">Hacer curso de DOM</span>
-            </div>
-            <i class="fas fa-trash-alt trashIcon icon"></i>
-          </li>
-          <li class="card">
-            <div>
-              <i class="far fa-check-square icon"></i>
-              <span class="task">Hacer curso de DOM</span>
-            </div>
-            <i class="fas fa-trash-alt trashIcon icon"></i>
-          </li>
+        
+        <ul class="cardsList" data-list>
         </ul>
+        
       </div>
     </main>
     <script src="/5. Manejo del DOM/script.js"></script>
